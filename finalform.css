@@ -1,0 +1,60 @@
+.forms {
+    max-width: 550px;
+   margin: 30px auto; 
+   padding: 20px 60px;
+}
+.submit{
+    width:80px;
+}
+.image{
+    width: 200px;
+}
+
+h2 {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.butto {
+    display: block;
+    height: 40px;
+  width: 100%;
+  border: none;
+  background-color: #4CAF50;
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+  text-align: center;
+  border-radius: 1rem;
+  font-family: 'Quicksand', sans-serif;
+}
+
+p{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 12px;
+}
+
+label {
+    font-family: 'Mulish', sans-serif;
+    font-weight: bold;
+}
+
+.month, .day, .year {
+    font-family: arial;
+    font-weight: normal;
+}
+
+#alert {
+    width: 100%;
+    margin-top: .25rem;
+    font-size: 80%;
+    color: #dc3545;
+}
+
+@media (max-width: 535px){
+    .forms {
+        margin: 5px auto;
+    }
+    h2{
+        font-size: 25px;
+    }
+}

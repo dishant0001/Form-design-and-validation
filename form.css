@@ -1,0 +1,30 @@
+.forms {
+    max-width: 600px;
+   margin: 30px auto; 
+   padding: 20px 60px;
+   border: 1px solid;
+   border-radius: 0.7rem;
+}
+.submit{
+    width:80px;
+}
+.image{
+    width: 200px;
+}
+
+label{
+    font-family: 'Mulish', sans-serif;
+    font-weight: bold;
+}
+
+h3 {
+    font-size: 30px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+@media (max-width: 700px){
+    .forms {
+        border-style: none;
+        margin: 5px auto;
+    }
+}
